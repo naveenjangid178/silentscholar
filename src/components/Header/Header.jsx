@@ -43,7 +43,7 @@ function Header() {
 
 
   return (
-    <header className='md:h-screen absolute'>
+    <header className='md:h-screen absolute z-50'>
         <div className='pt-2 pl-2'>
           <Link to='/'>
             <Logo width='70px' />
